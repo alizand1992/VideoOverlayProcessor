@@ -52,6 +52,7 @@
 		08D02B582369D5EC0092AAF1 /* TextOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOverlay.swift; sourceTree = "<group>"; };
 		08D02B5A2369D6000092AAF1 /* ImageOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOverlay.swift; sourceTree = "<group>"; };
 		08D02B5C2369D60F0092AAF1 /* VideoOverlayProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoOverlayProcessor.swift; sourceTree = "<group>"; };
+		178012292C05A15A0051A20F /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		1CDC7F8E236A36990019F02E /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CDC7F90236A36990019F02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CDC7F92236A36990019F02E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +94,7 @@
 		08D02B2E2369D2890092AAF1 = {
 			isa = PBXGroup;
 			children = (
+				178012292C05A15A0051A20F /* Package.swift */,
 				08D02B522369D5440092AAF1 /* README.md */,
 				08D02B532369D5690092AAF1 /* LICENSE */,
 				08D02B3A2369D2890092AAF1 /* VideoOverlayProcessor */,
