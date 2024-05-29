@@ -22,10 +22,6 @@
 		1CDC7F9A236A369B0019F02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CDC7F99236A369B0019F02E /* Assets.xcassets */; };
 		1CDC7F9D236A369B0019F02E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CDC7F9B236A369B0019F02E /* LaunchScreen.storyboard */; };
 		1CDC7FA3236A39B20019F02E /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1CDC7FA2236A39B20019F02E /* sample.mp4 */; };
-		1CDC7FA4236A3B830019F02E /* BaseOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D02B562369D5C00092AAF1 /* BaseOverlay.swift */; };
-		1CDC7FA5236A3B830019F02E /* TextOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D02B582369D5EC0092AAF1 /* TextOverlay.swift */; };
-		1CDC7FA6236A3B830019F02E /* ImageOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D02B5A2369D6000092AAF1 /* ImageOverlay.swift */; };
-		1CDC7FA7236A3B830019F02E /* VideoOverlayProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D02B5C2369D60F0092AAF1 /* VideoOverlayProcessor.swift */; };
 		1CDC7FA9236A3C890019F02E /* overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CDC7FA8236A3C890019F02E /* overlay.png */; };
 /* End PBXBuildFile section */
 
@@ -117,7 +113,10 @@
 		08D02B3A2369D2890092AAF1 /* VideoOverlayProcessor */ = {
 			isa = PBXGroup;
 			children = (
-				08D02B552369D5AC0092AAF1 /* Classes */,
+				08D02B562369D5C00092AAF1 /* BaseOverlay.swift */,
+				08D02B582369D5EC0092AAF1 /* TextOverlay.swift */,
+				08D02B5A2369D6000092AAF1 /* ImageOverlay.swift */,
+				08D02B5C2369D60F0092AAF1 /* VideoOverlayProcessor.swift */,
 				08D02B3B2369D2890092AAF1 /* VideoOverlayProcessor.h */,
 				08D02B3C2369D2890092AAF1 /* Info.plist */,
 			);
@@ -131,17 +130,6 @@
 				08D02B482369D2890092AAF1 /* Info.plist */,
 			);
 			path = VideoOverlayProcessorTests;
-			sourceTree = "<group>";
-		};
-		08D02B552369D5AC0092AAF1 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				08D02B562369D5C00092AAF1 /* BaseOverlay.swift */,
-				08D02B582369D5EC0092AAF1 /* TextOverlay.swift */,
-				08D02B5A2369D6000092AAF1 /* ImageOverlay.swift */,
-				08D02B5C2369D60F0092AAF1 /* VideoOverlayProcessor.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		1CDC7F8F236A36990019F02E /* Example */ = {
@@ -324,11 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CDC7F95236A36990019F02E /* ViewController.swift in Sources */,
-				1CDC7FA4236A3B830019F02E /* BaseOverlay.swift in Sources */,
-				1CDC7FA7236A3B830019F02E /* VideoOverlayProcessor.swift in Sources */,
 				1CDC7F91236A36990019F02E /* AppDelegate.swift in Sources */,
-				1CDC7FA5236A3B830019F02E /* TextOverlay.swift in Sources */,
-				1CDC7FA6236A3B830019F02E /* ImageOverlay.swift in Sources */,
 				1CDC7F93236A36990019F02E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
